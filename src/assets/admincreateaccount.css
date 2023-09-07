@@ -1,0 +1,131 @@
+.create-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #4070f4;
+}
+
+.aca-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+
+.aca-form {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.aca-header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aca-field {
+    position: relative;
+    height: 50px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.aca-field input,
+.aca-field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.aca-field input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+
+.aca-field input:focus {
+    border-bottom-width: 2px;
+}
+
+.aca-eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.aca-form-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.aca-form-link span,
+.aca-form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.aca-form a {
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.aca-form-content a:hover {
+    text-decoration: underline;
+}
+
+.aca-line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.aca-line::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 400px) {
+    .aca-form {
+        padding: 20px 10px;
+    }
+}
+
+.aca-button {
+    display: bl ock;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aca-button:hover {
+    background-color: #0056b3;
+}
